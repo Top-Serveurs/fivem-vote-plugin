@@ -1,0 +1,5 @@
+AddEventHandler('onPlayerVote', function (playername, ip, date)
+    print(playername)
+    print(ip)
+    print(date)
+end)
