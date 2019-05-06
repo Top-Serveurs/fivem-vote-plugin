@@ -1,6 +1,6 @@
 # Plugin de votes pour GTA V FIVEM
 
-Ceci est le plugin de votes de Top-Serveurs (https://gta.top-serveurs.net) qui sert à réceptionner les votes directement sur votre serveur FIVEM. Lorsqu'un joueur vote, Top-Serveurs notifie directement ovtre serveur et pouvez ainsi récomposer vos joueurs ou effectuer un clasement des meilleurs voteurs (par exemple), les possibilités sont infinies.
+Ceci est le plugin de votes de Top-Serveurs (https://gta.top-serveurs.net) qui sert à réceptionner les votes directement sur votre serveur FIVEM. Lorsqu'un joueur vote, Top-Serveurs notifie directement votre serveur et vous pouvez ainsi récompenser vos joueurs ou effectuer un clasement des meilleurs voteurs (par exemple), les possibilités sont infinies.
 
 ## Installation
 
