@@ -22,7 +22,7 @@ Port=8192 # Le port d'écoute du plugin. Par défaut, c'est le port 8192 mais vo
 start vote
 ```
 
-4. Utilisez l'event `onPlayerVote` pour réceptionner les votes effectués. Un exemple est disponible dans le fichier `vote/example.lua` et dans le fichier `example_esx.lua` pour un petit exemple avec ESX (pensez à supprimer les exemples). Voici un exemple :
+4. Utilisez l'event `onPlayerVote` pour réceptionner les votes effectués. Un exemple est disponible dans le fichier `example.lua` et dans le fichier `example_esx.lua` pour un petit exemple avec ESX (pensez à supprimer les exemples). Voici un exemple :
 
 ```lua
 AddEventHandler('onPlayerVote', function (playername, ip, date)
