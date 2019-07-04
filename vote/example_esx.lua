@@ -16,7 +16,7 @@ local function getPlayerByName(playername)
 end
 
 AddEventHandler('onPlayerVote', function (playername, ip, date)
-    local player = getPlayerByName(playername)
+    local Player = getPlayerByName(playername)
     if Player then
         Player.addMoney(100)
         
