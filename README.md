@@ -2,6 +2,8 @@
 
 Ceci est le plugin de votes de Top-Serveurs (https://gta.top-serveurs.net) qui sert à réceptionner les votes directement sur votre serveur FIVEM. Lorsqu'un joueur vote, Top-Serveurs notifie directement votre serveur et vous pouvez ainsi récompenser vos joueurs ou effectuer un clasement des meilleurs voteurs (par exemple), les possibilités sont infinies.
 
+Mais à quoi sert FiveM ? [FiveM](https://gta.top-serveurs.net/type/fivem) vous permet de créer un serveur GTA, vous pouvez trouvez notamment un serveur [GTA 5 RP](https://gta.top-serveurs.net/type/roleplay) sur notre site.
+
 ## Fonctionnalités
 
 - Event `onPlayerVote` permettant la réception des votes effectués sur votre fiche serveur en temps réel ! Ceci permet donc d'effectuer des actions en conséquence. Exemple : récompenser les voteurs.
