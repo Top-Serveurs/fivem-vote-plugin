@@ -17,8 +17,8 @@ end
 
 AddEventHandler('onPlayerVote', function (playername, ip, date)
     local player = getPlayerByName(playername)
-    if Player then
-        Player.addMoney(100)
+    if player then
+        player.addMoney(100)
         
         -- Pour notifier (requiert pNotify) :
 		-- TriggerClientEvent("pNotify:SendNotification", -1, {
