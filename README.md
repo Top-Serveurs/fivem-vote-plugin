@@ -17,6 +17,7 @@ Mais à quoi sert FiveM ? [FiveM](https://gta.top-serveurs.net/type/fivem) vous 
 Token="XXXX" # La token est obligatoire. C'est la token de votre fiche serveur disponible sur votre panel https://gta.top-serveurs.net
 Port=8192 # Le port d'écoute du plugin. Par défaut, c'est le port 8192 mais vous pouvez spécifier celui que vous voulez. N'oubliez pas de le configurer aussi sur le panel de gestion de votre serveur sur https://gta.top-serveurs.net
 ```
+**Pensez à bien ouvrir le port choisi (par exemple 8192) en UDP sur votre serveur/firewall**.
 
 3. Editez votre fichier `server.cfg` pour activer le plugin. Il suffit de rajouter la ligne suivante :
 
