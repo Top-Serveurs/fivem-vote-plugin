@@ -7,3 +7,7 @@ server_script {
     "example.lua",
     "example_esx.lua"
 }
+
+fx_version 'adamant'
+
+game 'gta5'
