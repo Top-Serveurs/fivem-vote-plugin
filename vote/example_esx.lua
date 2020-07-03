@@ -59,11 +59,11 @@ AddEventHandler('onPlayerVote', function (playername, ip, date)
                         --    layout = "centerRight"
                         --})
                     else
-                        print(_PrefixError .. " : add bank money for username " .. playername .. " !")
+                        print(_PrefixError .. " : add bank money for username : " .. playername .. " !")
                     end
                 end)
             else
-                print(_PrefixError .. " : Joueur introuvable : "..playername.."!")
+                print(_PrefixError .. " : Joueur introuvable : "..playername.." !")
 
                 -- Pour notifier (requiert pNotify) :
                 --TriggerClientEvent("pNotify:SendNotification", -1, {
