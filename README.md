@@ -4,6 +4,8 @@ Ceci est le plugin de votes de Top-Serveurs (https://gta.top-serveurs.net) qui s
 
 Mais à quoi sert FiveM ? [FiveM](https://gta.top-serveurs.net/type/fivem) vous permet de créer un serveur GTA, vous pouvez trouver notamment un serveur [GTA 5 RP](https://gta.top-serveurs.net/type/roleplay) sur notre site.
 
+**Important :**  Cette version du plugin est sous forme de resource conformément aux dernières versions de FiveM, et elle utilise donc un fxmanifest. Si vous rencontrez des problèmes de configuration c'est certainement que vous utilisez une ancienne version de FiveM. Donc **si vous utilisez une ancienne version de Fivem, nous vous conseillons de télécharger l'ancienne version de notre plugin** (0.1.X) : https://github.com/Top-Serveurs/fivem-vote-plugin/releases/tag/0.1.4.3.
+
 ## Fonctionnalités
 
 - Event `onPlayerVote` permettant la réception des votes effectués sur votre fiche serveur en temps réel ! Ceci permet donc d'effectuer des actions en conséquence. Exemple : récompenser les voteurs.
