@@ -47,3 +47,9 @@ end)
 ## Aide & Suggestions
 
 Si vous avez besoin d'aide sur la mise en place du plugin ou si vous avez des suggestions, n'hésitez pas à nous contacter ici : https://gta.top-serveurs.net/contact ou à gta@top-serveurs.net.
+
+## Contributeurs
+
+Merci à nos contributeurs qui nous aident à améliorer le plugin :
+- [@meyervp](https://github.com/meyervp)
+- [@dolutattoo](https://github.com/dolutattoo)
