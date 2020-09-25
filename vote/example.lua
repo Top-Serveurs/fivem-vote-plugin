@@ -1,5 +1,5 @@
--- Ceci est un exemple basique permettant un affiche des détails du vote en console
--- C'est seulement une demo, à vous de modifier à votre convenance.
+-- This is a basic example using ESX.
+-- It's only a demo, it's up to you to modify at your convenience.
 
 AddEventHandler('onPlayerVote', function (playername, ip, date)
     print(playername)

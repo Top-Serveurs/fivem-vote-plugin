@@ -1,10 +1,10 @@
--- Ceci est un exemple basique utilisant ESX.
--- C'est seulement une demo, à vous de modifier à votre convenance.
+-- This is a basic example using ESX.
+-- It's only a demo, it's up to you to modify at your convenience.
 
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-_Prefix = '^2[voteTopServeur]^0'
-_PrefixError = '^1[voteTopServeur]^0'
+_Prefix = '^2[voteTopGames]^0'
+_PrefixError = '^1[voteTopGames]^0'
 
 local function getPlayerByName(playername)
     local xPlayers = ESX.GetPlayers()
@@ -22,9 +22,9 @@ AddEventHandler('onPlayerVote', function (playername, ip, date)
         if getPlayerByName(playername) then
             Player.addMoney(Config.amountGiven)
 
-            -- Pour notifier (requiert pNotify) :
+            -- For notify (pNotify needed):
             --TriggerClientEvent("pNotify:SendNotification", -1, {
-            --    text = ""..playername.. " a voté pour le serveur</br>Il a gagné <b style='color:green'>".. Config.amountGiven .."$</b>",
+            --    text = ""..playername.. " voted for the server</br>He won <b style='color:green'>".. Config.amountGiven .."$</b>",
             --    type = "info",
             --    timeout = 2500,
             --    layout = "centerRight"
@@ -32,9 +32,9 @@ AddEventHandler('onPlayerVote', function (playername, ip, date)
             return
         end
         if Config.addMoneyOfflinePlayer == false then
-            -- Pour notifier (requiert pNotify) :
+            -- For notify (pNotify needed):
             --TriggerClientEvent("pNotify:SendNotification", -1, {
-            --    text = "Un inconnu a voté pour le serveur !",
+            --    text = "A stranger voted for the server!",
             --    type = "info",
             --    timeout = 1000,
             --    layout = "centerRight"
@@ -45,7 +45,7 @@ AddEventHandler('onPlayerVote', function (playername, ip, date)
             ['@name'] = playername
         }, function (result)
             if result[1] then
-                -- Pour notifier (requiert pNotify) :
+                -- For notify (pNotify needed):
                 MySQL.Async.execute('UPDATE users SET bank = @bank WHERE name = @name',
                 {
                     ['@bank'] = result[1]['bank'] + Config.amountGiven,
@@ -53,21 +53,21 @@ AddEventHandler('onPlayerVote', function (playername, ip, date)
                 }, function(rowschanged)
                     if rowschanged then
                         --TriggerClientEvent("pNotify:SendNotification", -1, {
-                        --    text = ""..playername.. " a voté pour le serveur</br>Il a gagné <b style='color:green'>".. Config.amountGiven .."$</b>",
+                        --    text = ""..playername.. " voted for the server</br>He won <b style='color:green'>".. Config.amountGiven .."$</b>",
                         --    type = "info",
                         --    timeout = 2500,
                         --    layout = "centerRight"
                         --})
                     else
-                        print(_PrefixError .. " : add bank money for username : " .. playername .. " !")
+                        print(_PrefixError .. ": add bank money for username: " .. playername .. " !")
                     end
                 end)
             else
-                print(_PrefixError .. " : Joueur introuvable : "..playername.." !")
+                print(_PrefixError .. ": Player not found: "..playername.." !")
 
-                -- Pour notifier (requiert pNotify) :
+                -- For notify (pNotify needed):
                 --TriggerClientEvent("pNotify:SendNotification", -1, {
-                --    text = "Un inconnu a voté pour le serveur !",
+                --    text = "A stranger voted for the server!",
                 --    type = "info",
                 --    timeout = 1000,
                 --    layout = "centerRight"

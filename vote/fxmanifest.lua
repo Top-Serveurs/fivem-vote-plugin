@@ -1,4 +1,4 @@
-description 'Vote plugin pour Top-Serveurs (top-serveurs.net)'
+description 'Voting plugin for Top-Games (top-games.net)'
 
 server_script "lib/VotePlugin.net.dll"
 
