@@ -1,6 +1,6 @@
 # Plugin de votes pour GTA V FIVEM
 
-**Important :** Nous avons crée un nouveau plugin disponible ici : https://github.com/Top-Serveurs/cfx-vote-plugin. Ce plugin n'est donc plus supporté par l'équipe Top-Serveurs, vous pouvez toujours l'utiliser mais nous vous recommandons chaudement d'utiliser le nouveau plugin.
+**Important :** Nous avons créé un nouveau plugin disponible ici : https://github.com/Top-Serveurs/cfx-vote-plugin. Ce plugin n'est donc plus supporté par l'équipe Top-Serveurs, vous pouvez toujours l'utiliser mais nous vous recommandons chaudement d'utiliser le nouveau plugin.
 
 - [:us: English documentation](./README.md)
 - [:fr: Documentation française](./README_FR.md)
